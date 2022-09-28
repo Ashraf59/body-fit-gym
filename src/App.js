@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Activity from './components/Activity/Activity';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Body Fit Gym</h1>
+    <div>
+
+      <Activity></Activity>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+
+.activity-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+
+}
+
+.exercise-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 100px;
+}

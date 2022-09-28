@@ -1,0 +1,29 @@
+
+
+.activities-item{
+    height: 350px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px #f2f2f2;
+}
+.activities-item img{
+    width: 250px;
+    height: 200px;
+}
+
+.btn-item{
+    width: 100%;
+    background-color: #18dcff;
+    border-radius:  0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    
+    
+}

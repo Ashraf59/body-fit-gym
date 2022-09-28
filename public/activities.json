@@ -1,0 +1,39 @@
+[
+  {
+    "id": "body-fit-gym-01",
+    "name": "Chest Build",
+    "img": "https://i.ibb.co/cX9mXFx/img-1.jpg",
+    "time": 10
+  },
+  {
+    "id": "body-fit-gym-02",
+    "name": "Curling",
+    "img": "https://i.ibb.co/vZgHwWC/img-2.jpg",
+    "time": 15
+  },
+  {
+    "id": "body-fit-gym-03",
+    "name": "Shoulder Build",
+    "img": "https://i.ibb.co/Z1xLJDT/img-3.jpg",
+    "time": 12
+  },
+  {
+    "id": "body-fit-gym-04",
+    "name": "Thai Build",
+    "img": "https://i.ibb.co/6XyTtFy/img-4.jpg",
+    "time": 15
+  },
+  {
+    "id": "body-fit-gym-05",
+    "name": "Heavy Weight",
+    "img": "https://i.ibb.co/k9GbLC4/img-5.jpg",
+    "time": 14
+  },
+  {
+    "id": "body-fit-gym-06",
+    "name": "Chain Up",
+    "img": "https://i.ibb.co/mFMzQpX/img-6.jpg",
+    "time": 10
+  }
+  
+]
