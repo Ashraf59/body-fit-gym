@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../images/logo.png'
-import ashraf from '../../images/ashraf.jpg'
-
+import logo from '../../images/logo.png';
+import ashraf from '../../images/ashraf.jpg';
 import Activities from '../Activities/Activities';
+import Swal from 'sweetalert2';
 import './Activity.css';
 
 const Activity = () => {
@@ -18,6 +18,14 @@ const Activity = () => {
 
     const handleBreakTime = (time) => {
         setTime(time);
+    }
+
+    const handleActivity = (id) => {
+        Swal.fire(
+            'Good job!',
+            'You clicked the button!',
+            'success'
+        )
     }
     return (
       <div>
@@ -76,7 +84,7 @@ const Activity = () => {
                         <h2 className='title'>Study Details</h2>
                         <input type="text" placeholder='exercise time' className='input-field' value={exercise} />
                         <input type="text" placeholder='Break-time' className='input-field' value={time} onChange={() => handleBreakTime} />
-                        <button className='activity-button'>Activity Completed</button>
+                        <button className='activity-button' onClick={() => handleActivity()}>Activity Completed</button>
                     </div>
             </div>
            
