@@ -16,7 +16,7 @@ const Activities = ({activity, exercise, setExercise}) => {
             <img src={img} alt="" />
            <div className='activities-details'>
            <h3>{name}</h3>
-            <p>Exercise Time: {time}</p>
+            <p>Exercise Time: {time}m</p>
             <button onClick={() => handleAddtoCart(id)} className='btn-item'>Add to List</button>
 
            </div>

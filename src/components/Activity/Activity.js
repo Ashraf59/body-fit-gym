@@ -63,7 +63,7 @@ const Activity = () => {
                     <p>Weight</p>
                    </div>
                    <div className='measurement'>
-                   <h3>5.5<span className='weight'><small>kg</small></span></h3>
+                   <h3>5.5</h3>
                     <p>Height</p>
                    </div>
                    <div className='measurement'>
