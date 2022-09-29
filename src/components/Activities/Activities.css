@@ -1,32 +1,29 @@
 .activities-item{
+    box-shadow: 2px 2px 4px gray;
     width: 250px;
-    height: 420px;
-    border: 1px solid #95A0A7;
+    height: 400px;
+    padding: 12px;
     border-radius: 8px;
-    margin-bottom: 50px;
-    box-shadow: 4px 4px 8px #95A0A7;
     position: relative;
 }
 .activities-item img{
-    width: 230px;
-    height: 250px;
-    border-radius: 8px;
-    margin: 8px;
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
 }
 .activities-details{
     padding: 10px;
     margin-top: -20px;
 }
 .btn-item{
-    width: 100%;
-    color: #FFFFFF;
+    width: 200px;
+    background-color: #8854d0;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
+    margin-left: 25px;
+    padding: 10px;
     border: none;
-    border-radius: 0px 0px 8px 8px;
-    background-color: #0fb9b1;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
 }

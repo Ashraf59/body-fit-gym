@@ -1,9 +1,15 @@
 import React from 'react';
 import './Activities.css'
 
-const Activities = ({activity}) => {
+const Activities = ({activity, exercise, setExercise}) => {
     console.log(activity)
-    const {img, name, time} = activity;
+    const {img, name, time, id} = activity;
+    let prevTime = 0;
+    const handleAddtoCart = (id) => {
+        prevTime = prevTime + time;
+        setExercise(prevTime + exercise)
+    }
+
     return (
         <div className='activities-item'>
             
@@ -11,12 +17,10 @@ const Activities = ({activity}) => {
            <div className='activities-details'>
            <h3>{name}</h3>
             <p>Exercise Time: {time}</p>
+            <button onClick={() => handleAddtoCart(id)} className='btn-item'>Add to List</button>
+
            </div>
 
-            <button className='btn-item'>
-                <p>Add to List</p>
-            
-            </button>
         </div>
     );
 };
