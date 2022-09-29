@@ -1,13 +1,39 @@
 
+.header{
+    display: flex;
+    color: #0fb9b1;
+    margin: 20px 90px;
+}
+.title{
+    margin-left: 10px;
+}
 .activity-container{
     display: grid;
-    grid-template-columns: 4fr 2fr;
-
+    grid-template-columns: 4fr 1fr;
+    padding-left: 50px;
 }
 
 .exercise-item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
-    margin: 100px 100px;
+    gap: 5px;
+    margin: 30px 50px;
+}
+.schedule-title{
+    margin-left: 50px;
+}
+.weight{
+    color: rgb(136, 130, 130);
+    font-size: 14px;
+}
+/* .info-container{
+    padding: 20px;
+} */
+
+.body-measurement{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(231, 223, 223, 0.787);
+    border-radius: 10px;
+    
 }
