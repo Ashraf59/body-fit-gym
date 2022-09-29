@@ -55,7 +55,7 @@ const Activity = () => {
                     <img src={ashraf} alt="" />
                     <h3>Md. Ashraf Ali</h3>
                 </div>
-                <p><small>Chattogram, Bangladesh</small></p>
+                <p className='address'><small>Chattogram, Bangladesh</small></p>
 
                 <div className='body-measurement'>
                    <div className='measurement'>
@@ -81,7 +81,7 @@ const Activity = () => {
                         </div>
                     </div>
                     <div className="exercise-details">
-                        <h2 className='title'>Study Details</h2>
+                        <h2 className='title'>Exercise Details</h2>
                         <input type="text" placeholder='exercise time' className='input-field' value={exercise} />
                         <input type="text" placeholder='Break-time' className='input-field' value={time} onChange={() => handleBreakTime} />
                         <button className='activity-button' onClick={() => handleActivity()}>Activity Completed</button>
@@ -101,8 +101,8 @@ const Activity = () => {
                 <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</p>
             </div>
             <div className='ans-cart'>
-                <h2>1. How does react work?</h2>
-                <p>React reads these objects and uses them to create HTML elements on the virtual DOM, after which it gets synced with the real DOM. So we'll have trees of objects on the virtual DOM and trees of objects on the real DOM. React automatically updates the associated DOM element when we change data on a React element.</p>
+                <h2>3. What does useEffect use except data load?</h2>
+                <p>useEffect is a basic hook that gets triggered on a combination of 3 React component lifecycles: componentDidMount. componentDid.</p>
             </div>
         </div>  
       </div>

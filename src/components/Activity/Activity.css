@@ -99,6 +99,7 @@
 .question-title{
     text-align: center;
     color: #8854d0;
+    margin-top: 60px;
 }
 .ans-cart{
     width: 800px;
@@ -117,4 +118,56 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .activity-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ans-cart{
+        width: auto;
+        margin: 30px;
+       
+    }
+    .activities-item{
+        box-shadow: 2px 2px 4px gray;
+        width: 400px;
+        height: 450px;
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+    }
+    .activities-item img{
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .info-container{
+        width: 400px;
+        margin: auto;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .my-profile{
+        justify-content: center;
+    }
+    
+.body-measurement{
+    
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+
+.measurement{
+    padding: 2px;
+}
+.address, .title{
+    text-align: center;
+}
+.input-field, .activity-button{
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+}
 }
