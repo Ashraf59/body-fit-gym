@@ -18,7 +18,15 @@ const Activity = () => {
 
     const handleBreakTime = (time) => {
         setTime(time);
+        localStorage.setItem("Time", time)
     }
+
+    useEffect(() =>{
+        const brTime = localStorage.getItem("Time")
+        if(brTime){
+            setTime(brTime)
+        }
+    },[])
 
     const handleActivity = (id) => {
         Swal.fire(
